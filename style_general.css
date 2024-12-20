@@ -1,0 +1,17 @@
+nav #head-nav a:hover {
+    color:white;
+    background-color:#47c827;
+    text-decoration:none;
+}
+nav #head-nav {
+    color:black;
+    text-decoration:none;
+    position:absolute;
+    top:20px;
+    right:20px;
+    margin-top:60px;
+    padding: 20px;
+    border:1px solid;
+    border-radius:5px;
+    border-color:#47c827;
+}
