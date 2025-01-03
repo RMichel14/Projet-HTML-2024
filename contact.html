@@ -6,17 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactez-nous</title>
     <link href="./style_general.css" rel="stylesheet">
+    <link href="./style_contact.css" rel="stylesheet">
     <link rel="icon" href="./img/logo_spotify.png" type="icone/x-icon">
 </head>
 
 <body>
-    <img id="img-nav" src="./img/logo_spotify.png">
+    <!-- Header de la page -- commun à tout le site -->
+    <a href="./index.html"><img id="img-nav" src="./img/logo_spotify.png"></a>
     <nav id="head-nav">
         <a href="./presentation.html">Présentation</a>
         <a href="./histoire.html">Histoire</a>
         <a href="./tarifs.html">Tarifs</a>
         <a href="./contact.html">Contactez-nous</a>
     </nav>
+    <!-- debut partie a propos -->
+    <section id="apropos">
+        <br>
+        <h1>A propos</h1>
+        <p id="soustitre">Quelques informations sur le site web que vous consultez...</p>
+        <img src="./img/ISEN_Caen.png" alt="Logo de l'école d’Ingénieur ISEN Caen.">
+        <p>Le site web que vous consultez a été créé par deux étudiants de l’école d’Ingénieur ISEN Ouest* à Caen dans
+            le cadre d’un projet de conception de site web.</p>
+        <p>Celui-ci est libre de droit et uniquement à but d’entrainement à la création de site web.</p>
+        <p>Toute ressemblance avec un site web déjà existant serait fortuite et involontaire.</p>
+        <br>
+        <p>Auteurs : Nawal BISIAUX et Raphaël MICHEL.</p>
+        <br>
+        <p>*ISEN Ouest : <a href="https://isen-ouest.fr" target="_blank">Institut Supérieur de l’Electronique et du Numérique</a>. Cette
+            institution regroupe une école à <a target="_blank" href="https://isen-brest.fr">Brest</a>, <a target="_blank" href="https://isen-nantes.fr">Nantes</a>, <a target="_blank" href="https://isen-paris.fr">Paris</a>, <a target="_blank" href="https://isen-caen.fr">Caen</a>, et <a target="_blank" href="https://isen-rennes.fr">Rennes</a>.</p>
+    </section>
+
+    <!-- debut partie contactez-nous -->
+    <section id="contacteznous">
+        <h1>Contactez-nous</h1>
+        <form action="contact.html" method="post">
+            <!-- <div id="identite">
+                <label for="lname">Nom</label>
+                <input type="text" name="lname" id="lname" required="required" placeholder="Jane">
+                <label for="fname">Prénom</label>
+                <input type="text" name="fname" id="fname" required="required" placeholder="Smitherton">
+            </div>
+            <div id="mail">
+                <label for="email">Adresse mail</label>
+                <input type="email" name="email" id="email" required="required" placeholder="email@github.com" autocomplete="email">
+            </div>
+            <div id="messag">
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" cols="130" rows="8" placeholder="Enter your question or message"
+                    required="required"></textarea>
+            </div> -->
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="lname">Nom</label>
+                    <input type="text" name="lname" id="lname" required="required" placeholder="Jane">
+                </div>
+
+                <div class="form-group">
+                    <label for="fname">Prénom</label>
+                    <input type="text" name="fname" id="fname" required="required" placeholder="Smitherton">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Adresse mail</label>
+                    <input type="email" name="email" id="email" required="required" placeholder="email@github.com" autocomplete="email">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message" cols="130" rows="8" placeholder="Enter your question or message"
+                        required="required"></textarea>
+                </div>
+            </div>
+            
+
+            <!-- Validation -->
+            <div id="boutons">
+                <input type="submit" name="btn_sub" value="Envoyer">
+                <input type="reset" name="btn_reset" value="Tout effacer">
+            </div>
+        </form>
+    </section>
 </body>
 
 </html>
