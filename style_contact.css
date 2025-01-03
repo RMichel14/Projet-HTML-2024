@@ -1,0 +1,64 @@
+#apropos {
+    margin-left: 10px;
+}
+
+#apropos img {
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 64px;
+    padding-left: 50px;
+}
+
+#apropos #soustitre {
+    font-style: italic;
+}
+
+
+/* Style général pour le formulaire */
+form {
+    max-width: 600px; /* Largeur maximale */
+    padding-left: 15px;
+}
+
+/* Conteneur pour les groupes de champs en ligne */
+.form-row {
+    display: flex;
+    gap: 20px; /* Espacement horizontal entre les colonnes */
+    margin-bottom: 15px; /* Espacement vertical entre les rangées */
+}
+
+/* Conteneur pour chaque groupe label + input */
+.form-group {
+    display: flex;
+    flex-direction: column; /* Label au-dessus de l'input */
+    flex: 1; /* Permet de prendre la même largeur */
+}
+
+/* Style pour le label */
+label {
+    margin-bottom: 5px; /* Espacement entre le label et l'input */
+}
+
+/* Style pour l'input */
+input, textarea {
+    padding: 10px; /* Espacement interne */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 8px; /* Coins arrondis */
+    font-size: 14px; /* Taille de police */
+}
+
+/* Style pour l'input au focus */
+input:focus, textarea:focus {
+    border-color: #007BFF; /* Couleur de bordure au focus */
+    outline: none; /* Supprime la bordure par défaut du focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ajoute un effet lumineux */
+}
+
+#boutons input:hover {
+    background-color: black;
+    color: white;
+}
