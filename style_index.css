@@ -1,0 +1,28 @@
+
+#index img{
+    width:600px;
+    text-align:center;
+    margin:auto;
+    display:block;
+}
+#index{
+    font-size:medium;
+}
+#interface{
+    display:flex;
+    justify-content:center;
+    gap:5px;
+}
+#interface img{
+    width:300px;
+    height:auto;
+}
+p{
+    border:2px solid #A0C36F;
+    padding:10px;
+}
+.texte_svg{
+    fill:white;
+    text-anchor:middle;
+    font-size:16px;
+}
