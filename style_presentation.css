@@ -1,0 +1,69 @@
+#accueil img{
+    width:700px;
+    text-align:center;
+    margin:auto;
+    display:block;
+}
+.tableau1 {
+    margin: 0 auto;
+    text-align: center; 
+    border-collapse: collapse; 
+    font-size:small;
+    border: 3px solid #A0C36F;
+    border-radius: 10px;
+    padding: 10px; 
+    margin: 20px auto; 
+    background-color: #f9f9f9; 
+}
+.tableau1 td {
+    border: 1px solid #A0C36F; 
+    padding: 10px; 
+    width:250px;
+    height:100px;
+}
+.tableau1 img {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin: 0 5px; 
+}
+.icones{
+    text-align: left;
+    padding-left: 20px; 
+    list-style-type: none;
+}
+.icones .numero{
+    color: #A0C36F; 
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+/* Deuxième partie */
+#album img{
+    width:700px;
+    text-align:center;
+    margin:auto;
+    display:block;
+}
+.tableau2 {
+    margin: 0 auto;
+    text-align: center; 
+    border-collapse: collapse; 
+    font-size:small;
+    border: 3px solid #A0C36F;
+    border-radius: 10px;
+    padding: 10px; 
+    margin: 20px auto; 
+    background-color: #f9f9f9; 
+}
+.tableau2 td {
+    border: 1px solid #A0C36F; 
+    padding: 10px; 
+    width:350px;
+    height:100px;
+}
+.tableau2 img {
+    display: inline-block;
+    width: 300px;
+    margin: 0 5px; 
+}
+
