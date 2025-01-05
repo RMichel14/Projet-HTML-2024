@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #1db954;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.header ul li {
+    margin-bottom: 5px;
+}
+
+.plans {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.plan {
+    background-color: #000;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plan h3 {
+    margin: 0 0 10px;
+}
+
+.plan p {
+    margin: 10px 0;
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plan ul li {
+    margin-bottom: 5px;
+}
+
+.cta-button {
+    background-color: #1db954;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #1aa34a;
+}
+
+.comparaison {
+    margin-top: 40px;
+    background-color: #000;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.comparaison .title {
+    background-color: #1db954;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.comparaison table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.comparaison th, .comparaison td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+
+.comparaison th {
+    background-color: #222;
+}
+
+.comparaison .check {
+    color: #1db954;
+    font-weight: bold;
+}
+
+.comparaison .dash {
+    color: #888;
+}
