@@ -1,0 +1,57 @@
+#histoire #intro{
+    font-style: italic;
+    color:grey;
+}
+#histoire img{
+    width:900px;
+    text-align:center;
+    margin:auto;
+    display:block;
+}
+#histoire .paragraphe p{
+    border:2px solid #A0C36F;
+    padding:20px;
+    
+}
+#histoire .maisons_disques {
+    margin: 0 auto;
+    text-align: left; 
+    border-collapse: collapse; 
+    font-size:20px;
+    padding: 10px; 
+    margin: 20px auto; 
+    background-color: #f9f9f9; 
+}
+#histoire .maisons_disques td{
+    padding: 10px; 
+    width:450px;
+    height:100px;
+}
+#histoire .maisons_disques img {
+    display: inline-block;
+    width: 400px;
+    margin: 0 5px; 
+}
+
+#histoire .tableau {
+    border-spacing: 20px;
+    width: 80%; 
+    margin: 0 auto; 
+}
+#histoire .tab {
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    padding: 20px; 
+    text-align: left;
+    vertical-align: top;
+    width: 300px;
+}
+#histoire .tab h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000;
+}
+#histoire .tab p {
+    font-size: 14px;
+    color: #333;
+}
